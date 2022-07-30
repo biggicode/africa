@@ -88,6 +88,7 @@
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 25px;
+  z-index: 2;
 }
 
 .content__text {
@@ -96,6 +97,7 @@
   line-height: 30px;
   margin-bottom: 30px;
   padding-top: 35vh;
+  z-index: 2;
 }
 
 .btn {
@@ -108,10 +110,23 @@
   font-size: 12px;
   letter-spacing: 2px;
   border-radius: 7px;
+  z-index: 2;
 }
 
 .btn:hover {
   background-color: #191919;
   border: 2px solid #191919;
   transition: all 0.4s ease;
+}
+
+.main-img-wrapper {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-img {
+  width: 380px;
+  height: auto;
 }
