@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
+  text-decoration: none;
 }
 
 .main {
@@ -13,4 +14,52 @@
   background-size: cover;
   background-position: center;
   position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 7% 0;
+}
+
+.logo__img {
+  width: 200px;
+  cursor: pointer;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__link {
+  display: inline-block;
+  padding: 0 25px;
+  color: rgb(228, 218, 218);
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+
+.nav__link:hover {
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.nav__button {
+  background-color: #191919;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 7px;
+  letter-spacing: 2px;
+}
+
+.nav__button:hover {
+  background-color: transparent;
+  border: 2px solid rgb(228, 218, 218);
+  transform: scale(0.9);
+  transition: all 0.4s ease;
+  cursor: pointer;
 }
